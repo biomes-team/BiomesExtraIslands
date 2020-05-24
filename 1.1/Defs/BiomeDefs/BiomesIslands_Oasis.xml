@@ -85,12 +85,12 @@
       <li>
         <terrain>Soil</terrain>
         <min>1.0</min>
-        <max>5.0</max>
+        <max>10.0</max>
       </li>
       <li>
         <terrain>Mud</terrain>
-        <min>5.0</min>
-        <max>15.0</max>
+        <min>10.0</min>
+        <max>20.0</max>
       </li>
       <li>
         <terrain>WaterShallow</terrain>
@@ -117,8 +117,8 @@
 	  </li>
       <li>
         <perlinFrequency>0.02</perlinFrequency>
-        <minFertility>3.0</minFertility>
-        <maxFertility>8.0</maxFertility>
+        <minFertility>10.0</minFertility>
+        <maxFertility>20.0</maxFertility>
         <thresholds>
 		<!--
 		  <li>
@@ -128,13 +128,8 @@
           </li>
 		  -->
 		  <li>
-            <terrain>Soil</terrain>
-            <min>-0.2</min>
-            <max>0.1</max>
-          </li>
-		  <li>
             <terrain>SoilRich</terrain>
-            <min>0.35</min>
+            <min>0.5</min>
             <max>999</max>
           </li>
         </thresholds>
