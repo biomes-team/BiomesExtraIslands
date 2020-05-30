@@ -29,3 +29,10 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesIslandsExtraIs
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesIslandsExtraIslands\1.1\Assemblies\BiomeWorkerExtraIslands.pdb
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesIslandsExtraIslands\1.1\Source\BiomeWorkerExtraIslands\BiomeWorkerExtraIslands\obj\Release\BiomeWorkerExtraIslands.csproj.CopyComplete
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesIslandsExtraIslands\1.1\Source\BiomeWorkerExtraIslands\BiomeWorkerExtraIslands\obj\Release\BiomeWorkerExtraIslands.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesExtraIslands\1.1\Assemblies\BiomeWorkerExtraIslands.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesExtraIslands\1.1\Assemblies\BiomeWorkerExtraIslands.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesExtraIslands\1.1\Source\BiomeWorkerExtraIslands\BiomeWorkerExtraIslands\obj\Release\BiomeWorkerExtraIslands.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesExtraIslands\1.1\Source\BiomeWorkerExtraIslands\BiomeWorkerExtraIslands\obj\Release\BiomeWorkerExtraIslands.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesExtraIslands\1.1\Source\BiomeWorkerExtraIslands\BiomeWorkerExtraIslands\obj\Release\BiomeWorkerExtraIslands.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesExtraIslands\1.1\Source\BiomeWorkerExtraIslands\BiomeWorkerExtraIslands\obj\Release\BiomeWorkerExtraIslands.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BiomesExtraIslands\1.1\Source\BiomeWorkerExtraIslands\BiomeWorkerExtraIslands\obj\Release\BiomeWorkerExtraIslands.pdb

@@ -2,7 +2,7 @@
 <Defs>
   
   <BiomeDef>    <!-- desertIsland -->
-    <defName>BiomesIslands_desertIsland</defName>
+    <defName>BiomesIslands_DesertIsland</defName>
     <label>desert island</label>
     <description>Like the desert, but on an island.</description>
     <workerClass>BiomeWorkerExtraIslands.BiomeWorker_DesertIsland</workerClass>
@@ -23,7 +23,7 @@
     <plantDensity>0.24</plantDensity>
     <settlementSelectionWeight>0.01</settlementSelectionWeight>
     <movementDifficulty>2</movementDifficulty>
-    <texture>World/Biomes/Desert</texture>
+    <texture>World/Biomes/Ocean</texture>
     <forageability>0.5</forageability>
 		<foragedFood>RawBerries</foragedFood>
     <wildPlantRegrowDays>28</wildPlantRegrowDays>

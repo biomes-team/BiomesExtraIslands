@@ -2,7 +2,7 @@
 <Defs>
   
   <BiomeDef>    <!-- tundraIsland -->
-    <defName>BiomesIslands_tundraIsland</defName>
+    <defName>BiomesIslands_TundraIsland</defName>
     <label>tundra island</label>
     <description>Like the tundra but on an island.</description>
     <workerClass>BiomeWorkerExtraIslands.BiomeWorker_TundraIsland</workerClass>
@@ -23,7 +23,7 @@
     <plantDensity>0.19</plantDensity>
     <settlementSelectionWeight>0.01</settlementSelectionWeight>
     <movementDifficulty>2</movementDifficulty>
-    <texture>World/Biomes/Tundra</texture>
+    <texture>World/Biomes/Ocean</texture>
     <forageability>0.5</forageability>
 		<foragedFood>RawBerries</foragedFood>
     <wildPlantRegrowDays>28</wildPlantRegrowDays>

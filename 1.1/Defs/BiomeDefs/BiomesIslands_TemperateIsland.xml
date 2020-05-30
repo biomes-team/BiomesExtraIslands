@@ -2,7 +2,7 @@
 <Defs>
   
   <BiomeDef>    <!-- temperateIsland -->
-    <defName>BiomesIslands_temperateIsland</defName>
+    <defName>BiomesIslands_TemperateIsland</defName>
     <label>temperate island</label>
     <description>Like the temperate forest, but on an island.</description>
     <workerClass>BiomeWorkerExtraIslands.BiomeWorker_TemperateIsland</workerClass>
@@ -23,7 +23,7 @@
     <plantDensity>0.65</plantDensity>
     <settlementSelectionWeight>0.01</settlementSelectionWeight>
     <movementDifficulty>2</movementDifficulty>
-    <texture>World/Biomes/TemperateForest</texture>
+    <texture>World/Biomes/Ocean</texture>
     <forageability>1</forageability>
 		<foragedFood>RawBerries</foragedFood>
     <wildPlantRegrowDays>15</wildPlantRegrowDays>

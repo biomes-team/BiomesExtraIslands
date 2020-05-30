@@ -182,7 +182,7 @@ namespace BiomeWorkerExtraIslands
             {
                 return -100f;
             }
-            if (tile.temperature > 40f || tile.temperature < 0f || tile.elevation < 50f || tile.elevation > 200f || tile.rainfall > 600f || Rand.Value < 0.97)
+            if (tile.temperature > 40f || tile.temperature < 0f || tile.elevation < 50f || tile.elevation > 9999f || tile.rainfall > 600f || Rand.Value < 0.97)
             {
                 return 0f;
             }

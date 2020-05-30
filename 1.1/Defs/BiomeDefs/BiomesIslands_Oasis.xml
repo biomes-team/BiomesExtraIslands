@@ -4,7 +4,7 @@
   <BiomeDef>    <!-- oasis. basically an island. -->
     <defName>BiomesIslands_Oasis</defName>
     <label>oasis</label>
-    <description>Like the oasis forest, but on an island.</description>
+    <description>A patch of jungle around a lake in the middle of a desert. If a camel is the ship of the desert, is an oasis not just the island of the desert?</description>
     <workerClass>BiomeWorkerExtraIslands.BiomeWorker_Oasis</workerClass>
 	
 	<modExtensions>
@@ -20,12 +20,12 @@
 	
     <canAutoChoose>false</canAutoChoose>
     <allowRoads>false</allowRoads>
-    <allowRivers>false</allowRivers>
+	<allowRivers>true</allowRivers>
     <animalDensity>2.5</animalDensity>
     <plantDensity>0.65</plantDensity>
     <settlementSelectionWeight>0.01</settlementSelectionWeight>
     <movementDifficulty>2</movementDifficulty>
-    <texture>World/Biomes/ocean</texture>
+    <texture>World/Biomes/desert</texture>
     <forageability>1</forageability>
 		<foragedFood>RawBerries</foragedFood>
     <wildPlantRegrowDays>15</wildPlantRegrowDays>
