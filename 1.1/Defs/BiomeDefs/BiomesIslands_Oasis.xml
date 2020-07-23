@@ -5,17 +5,26 @@
     <defName>BiomesIslands_Oasis</defName>
     <label>oasis</label>
     <description>A patch of jungle around a lake in the middle of a desert. If a camel is the ship of the desert, is an oasis not just the island of the desert?</description>
-    <workerClass>BiomeWorkerExtraIslands.BiomeWorker_Oasis</workerClass>
+    <workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
 	
 	<modExtensions>
-		<li Class="BiomesIslands.IslandMap">
+        <li Class="BiomesCore.DefModExtensions.BiomesMap">
 			<hasHilliness>false</hasHilliness>
 			<hasScatterables>false</hasScatterables>
-		</li>
-		<li Class="BiomesIslands.OasisMap">
-			<isFlatMap>true</isFlatMap>
+			<minHillEncroachment>0</minHillEncroachment>
+			<maxHillEncroachment>1</maxHillEncroachment>
 			<isOasis>true</isOasis>
 		</li>
+        <li Class="BiomesKit.BiomesKitControls">
+            <allowOnLand>true</allowOnLand>
+			<maxHilliness>Flat</maxHilliness>
+			<spawnOnBiomes>
+				<li>Desert</li>
+				<li>ExtremeDesert</li>
+			</spawnOnBiomes>
+			<frequency>5</frequency>
+			<materialPath>World/MapGraphics/Oasis</materialPath>
+        </li>
 	</modExtensions>
 	
     <canAutoChoose>false</canAutoChoose>
@@ -92,22 +101,12 @@
         <min>10.0</min>
         <max>20.0</max>
       </li>
-      <li>
-        <terrain>WaterShallow</terrain>
-        <min>20.0</min>
-        <max>999</max>
-      </li>
     </terrainsByFertility>
     <terrainPatchMakers>
 	  <li>
 		<perlinFrequency>0.035</perlinFrequency>
 		<minFertility>20.0</minFertility>
 		<thresholds>
-			<li>
-				<terrain>WaterDeep</terrain>
-				<min>12</min>
-				<max>999</max>
-			</li>
 			<li>
 				<terrain>Mud</terrain>
 				<min>5.0</min>

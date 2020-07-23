@@ -18,7 +18,8 @@
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Royalty</li>
     <li>brrainz.harmony</li>
-	<li>Biomes! Core</li>
+    <li>BiomesTeam.BiomesCore</li>
+	<li>iomesTeam.BiomesIslands</li>
   </loadAfter>
   <description>
 A few extra islands based on vanilla biomes. Nothing else.

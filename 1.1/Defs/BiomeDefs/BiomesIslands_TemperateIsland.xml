@@ -5,15 +5,26 @@
     <defName>BiomesIslands_TemperateIsland</defName>
     <label>temperate island</label>
     <description>Like the temperate forest, but on an island.</description>
-    <workerClass>BiomeWorkerExtraIslands.BiomeWorker_TemperateIsland</workerClass>
+    <workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
 	
 	<modExtensions>
-		<li Class="BiomesIslands.IslandMap">
+        <li Class="BiomesCore.DefModExtensions.BiomesMap">
 			<isIsland>true</isIsland>
 		</li>
 		<li Class="BiomesCore.DefModExtensions.Biomes_NoBeach">
 			<allowBeach>false</allowBeach>
 		</li>
+        <li Class="BiomesKit.BiomesKitControls">
+			<randomizeHilliness>True</randomizeHilliness>
+			<usePerlin>true</usePerlin>
+            <allowOnWater>true</allowOnWater>
+			<minTemperature>2</minTemperature>
+			<maxTemperature>15</maxTemperature>
+			<minRainfall>600</minRainfall>
+			<frequency>5</frequency>
+			<materialPath>World/MapGraphics/TemperateIsland</materialPath>
+			<materialLayer>3509</materialLayer>
+        </li>
 	</modExtensions>
 	
     <canAutoChoose>false</canAutoChoose>
