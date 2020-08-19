@@ -3,7 +3,7 @@
   <name>Biomes! Islands: Extra Islands</name>
   <author>The Biomes Mod Team</author>
   <supportedVersions>
-    <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <packageId>BiomesTeam.ExtraIslands</packageId>
   <modDependencies>
@@ -19,7 +19,7 @@
     <li>Ludeon.RimWorld.Royalty</li>
     <li>brrainz.harmony</li>
     <li>BiomesTeam.BiomesCore</li>
-	<li>iomesTeam.BiomesIslands</li>
+	<li>BiomesTeam.BiomesIslands</li>
   </loadAfter>
   <description>
 A few extra islands based on vanilla biomes. Nothing else.
